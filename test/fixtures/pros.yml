@@ -1,0 +1,29 @@
+pros_in_paris:
+  id: 1
+  name: "Nathalie"
+  address: "22 Av de Friedland 75008 Paris"
+  lat: 48
+  lng: 2
+  max_kilometers: 5
+  latitude: 48.8745138
+  longitude: 2.3004867
+
+pros_in_nanterre:
+  id: 2
+  name: "Sophie"
+  address: "127 Avenue Pablo Picasso, 92000 Nanterre"
+  lat: 48
+  lng: 2
+  max_kilometers: 7
+  latitude: 48.893759
+  longitude: 2.2119436
+
+pros_in_colombes:
+  id: 3
+  name: "Franck"
+  address: "27 Rue d'Estienne d'Orves, 92700 Colombes"
+  lat: 48
+  lng: 2
+  max_kilometers: 9
+  latitude: 48.921326
+  longitude: 2.2482213

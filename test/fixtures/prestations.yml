@@ -1,0 +1,24 @@
+prestation_1:
+  id: 1
+  reference: "man_haircut"
+  duration: 30
+  
+prestations_2:
+  id: 2
+  reference: "woman_shampoo"
+  duration: 15
+
+prestation_3:
+  id: 3
+  reference: "woman_haircut"
+  duration: 30
+
+prestations_4:
+  id: 4
+  reference: "woman_color"
+  duration: 45
+
+prestation_5:
+  id: 5
+  reference: "woman_brushing"
+  duration: 40

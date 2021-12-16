@@ -1,0 +1,76 @@
+<h1>BOOKING SHOW</h1>
+
+  <div>
+    <div class="row">
+      <p>Booking For : </p><p>&nbsp;<%= @booking.name.capitalize %></p>
+      <p>Jour :</p><p> <%= @booking.starts_at.strftime("%m/%d/%Y") %></p>
+      <% if !@t.blank? %>
+        <p>A: </p><p class="margin-left grey"><%= @t.strftime("%H:%M")%></p>
+      <%end%>
+    </div>
+    <div class="row">
+      <p>Prestations demandé: </p>
+      <% @booking.prestations.each do |p| %>
+        <p> &nbsp;<%= p.reference.capitalize %>&nbsp;&nbsp;</p>
+      <%end%>
+  </div>
+  </div>
+
+  <div>
+      <p>Pro who got skills required : </p>
+      <div class="row">
+        <% @pros.find_skills(@booking).each do |pro|%>
+          <div>
+            <p> <%= pro.name %></p>
+          </div>
+        <%end%>
+      </div>
+  </div>
+
+  <div>
+  <p>Pro qui sont disponibles au jour et à l heure souhaités : </p>
+    <div class="row">
+    <%  @pros.find_openning(@booking).each do |pro| %>
+    <div>
+      <p class="box-valid"> <%=  pro.name %></p>
+    </div>
+    <%end%>
+  </div>
+  </div>
+
+<div>
+<p>Pro qui accepte la distance : </p>
+<div class="row">
+  <% if Pro.find_distance(@pros, @booking).empty? %>
+    <p class="grey">Personne de disponible</p>
+  <% else %>
+    <% Pro.find_distance(@pros, @booking).each do |pro| %>
+      <div class="result">
+        <p class="box-valid"><%= pro.name %></p>
+      </div>
+    <%end%>
+  <%end%>
+</div>
+</div>
+
+<div>
+<p>select the pros available at the requested appointement (no scheduled appointment overlapping the requested appointement)</p>
+<div class="row">
+    <% Pro.opening_and_not_appointment(@booking).each do |pro| %>
+      <div class="result">
+        <p class="box-valid"><%= pro.name %></p>
+      </div>
+    <%end%>
+</div>
+</div>
+
+<div>
+<p>Pro  avec toutes les conditions précédentes</p>
+<div class="row">
+    <% Pro.find_all_conditions(@booking) do |valid| %>
+      <div class="result">
+        <p class="box-valid"><%=valid %></p>
+      </div>
+    <%end%>
+</div>
+</div>

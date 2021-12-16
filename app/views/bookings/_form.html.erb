@@ -1,0 +1,11 @@
+<%= simple_form_for @booking do |f|  %>
+  <%= f.input :name  %>  
+  <%= f.input :email %>
+  <%= f.input :address %>
+  <%= f.simple_fields_for :booking_prestations do |bp| %>
+    <%= bp.input :prestation_id, collection: Prestation.all, label_method: :reference %>
+  <% end %>
+  Select your appointement
+  <%= f.input :starts_at %>
+  <%= f.submit "enregistrer" %>
+<% end %>

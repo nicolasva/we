@@ -1,0 +1,91 @@
+openning_hours_1:
+  id: 1
+  day: "monday"
+  starts_at: "Thu, 09 Dec 2021 08:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 17:00:00.000000000 UTC +00:00"
+  pro_id: 1
+
+openning_hours_2:
+  id: 2
+  day: "thursday"
+  starts_at: "Thu, 09 Dec 2021 08:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 12:00:00.000000000 UTC +00:00"
+  pro_id: 1
+
+openning_hours_3:
+  id: 3
+  day: "friday"
+  starts_at: "Thu, 09 Dec 2021 08:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 17:00:00.000000000 UTC +00:00"
+  pro_id: 1
+
+openning_hours_4:
+  id: 4
+  day: "monday"
+  starts_at: "Thu, 09 Dec 2021 09:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 18:00:00.000000000 UTC +00:00"
+  pro_id: 2
+
+openning_hours_5:
+  id: 5
+  day: "tuesday"
+  starts_at: "Thu, 09 Dec 2021 09:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 18:00:00.000000000 UTC +00:00"
+  pro_id: 2
+
+openning_hours_6:
+  id: 6
+  day: "wednesday"
+  starts_at: "Thu, 09 Dec 2021 09:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 12:30:00.000000000 UTC +00:00"
+  pro_id: 2
+
+openning_hours_7:
+  id: 7
+  day: "thursday"
+  starts_at: "Thu, 09 Dec 2021 09:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 18:00:00.000000000 UTC +00:00"
+  pro_id: 2
+
+openning_hours_8:
+  id: 8
+  day: "friday"
+  starts_at: "Thu, 09 Dec 2021 09:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 18:00:00.000000000 UTC +00:00"
+  pro_id: 2
+
+openning_hours_9:
+  id: 9
+  day: "tuesday"
+  starts_at: "Thu, 09 Dec 2021 08:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 18:00:00.000000000 UTC +00:00"
+  pro_id: 3
+
+openning_hours_10:
+  id: 10
+  day: "wednesday"
+  starts_at: "Thu, 09 Dec 2021 08:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 18:00:00.000000000 UTC +00:00"
+  pro_id: 3
+
+
+openning_hours_11:
+  id: 11
+  day: "thursday"
+  starts_at: "Thu, 09 Dec 2021 14:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 18:00:00.000000000 UTC +00:00"
+  pro_id: 3
+
+openning_hours_12:
+  id: 12
+  day: "friday"
+  starts_at: "Thu, 09 Dec 2021 09:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 18:00:00.000000000 UTC +00:00"
+  pro_id: 3
+
+openning_hours_13:
+  id: 13
+  day: "saturday"
+  starts_at: "Thu, 09 Dec 2021 09:00:00.000000000 UTC +00:00"
+  ends_at: "Thu, 09 Dec 2021 13:00:00.000000000 UTC +00:00"
+  pro_id: 3

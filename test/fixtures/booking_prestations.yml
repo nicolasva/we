@@ -1,0 +1,29 @@
+booking_prestation_1:
+  id: 1
+  booking_id: 1
+  prestation_id: 1
+
+booking_prestation_2:
+  id: 2
+  booking_id: 2
+  prestation_id: 4
+
+booking_prestation_3:
+  id: 3
+  booking_id: 3
+  prestation_id: 3
+
+booking_prestation_4:
+  id: 4
+  booking_id: 3
+  prestation_id: 5
+
+booking_prestation_5:
+  id: 5
+  booking_id: 4
+  prestation_id: 4
+
+booking_prestation_6:
+  id: 6
+  booking_id: 4
+  prestation_id: 2

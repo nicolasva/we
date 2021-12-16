@@ -1,0 +1,43 @@
+booking_in_paris:
+  id: 1
+  email: "pierre@yopmail.com"
+  name: "Pierre Legrand"
+  starts_at: "Thu, 29 Aug 2019 07:30:00.000000000 UTC +00:00"
+  address: "73 Avenue de Wagram, 75017 Paris"
+  lat: 48
+  lng: 2
+  latitude: 48.8791661
+  longitude: 2.2987288
+
+booking_in_paris2:
+  id: 2
+  email: "pierre@yopmail.com"
+  name: "Pierre Legrand"
+  starts_at: "Wed, 28 Aug 2019 07:30:00.000000000 UTC +00:00"
+  address: "73 Avenue de Wagram, 75017 Paris"
+  lat: 48
+  lng: 2
+  latitude: 48.8791661
+  longitude: 2.2987288
+
+booking_in_gennevilliers:
+  id: 3
+  email: "emilie@yopmail.com"
+  name: "Émilie Fouche"
+  starts_at: "Tue, 27 Aug 2019 12:00:00.000000000 UTC +00:00"
+  address: "2 Rue du Professeur Calmette, 92230 Gennevilliers"
+  lat: 48
+  lng: 2
+  latitude: 48.924216
+  longitude: 2.2953594
+
+booking_in_issy:
+  id: 4
+  email: "caroline@yopmail.com"
+  name: "Caroline Dujean"
+  starts_at: "Wed, 28 Aug 2019 14:00:00.000000000 UTC +00:00"
+  address: "4 Rue Hoche, 92130 Issy-les-Moulineaux"
+  lat: 48
+  lng: 2
+  latitude: 48.8231733
+  longitude: 2.2680954

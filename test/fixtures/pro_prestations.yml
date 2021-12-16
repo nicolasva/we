@@ -1,0 +1,49 @@
+pro_prestations_1:
+  id: 1
+  pro_id: 1
+  prestation_id: 2
+
+pro_prestations_2:
+  id: 2
+  pro_id: 1
+  prestation_id: 3
+
+pro_prestations_3:
+  id: 3
+  pro_id: 1
+  prestation_id: 5
+
+pro_prestations_4:
+  id: 4
+  pro_id: 2
+  prestation_id: 1
+
+pro_prestations_5:
+  id: 5
+  pro_id: 2
+  prestation_id: 2
+
+pro_prestations_6:
+  id: 6
+  pro_id: 2
+  prestation_id: 3
+
+pro_prestations_7:
+  id: 7
+  pro_id: 2
+  prestation_id: 4
+
+pro_prestations_8:
+  id: 8
+  pro_id: 3
+  prestation_id: 1
+
+pro_prestations_9:
+  id: 9
+  pro_id: 3
+  prestation_id: 2
+
+pro_prestations_10:
+  id: 10
+  pro_id: 3
+  prestation_id: 3
